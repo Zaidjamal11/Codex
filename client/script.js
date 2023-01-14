@@ -71,6 +71,10 @@ const handleSubmit = async (e) => {
     // bot's chatstripe
     const uniqueId = generateUniqueId()
     chatContainer.innerHTML += chatStripe(true, " ", uniqueId)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5fb21d6054951356407e27ed7ce2b7718697c337
     chatContainer.scrollTop = chatContainer.scrollHeight;
 
     const messageDiv = document.getElementById(uniqueId)
